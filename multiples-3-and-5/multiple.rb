@@ -1,4 +1,4 @@
-def sum_multiples(target = 10, m1 = 3, m2 =5)
+def sum_multiples(target = 1000, m1 = 3, m2 =5)
   mod1 = (target - 1) / m1
   mod2 = (target - 1) / m2
   mod3 = (target - 1) / (m1 * m2)

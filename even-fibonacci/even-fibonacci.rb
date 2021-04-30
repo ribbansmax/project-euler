@@ -8,3 +8,5 @@ def sum_even_fib_until(stop = 4000000, sum = 2, list = [1, 2])
     sum_even_fib_until(stop, sum, list)
   end
 end
+
+puts sum_even_fib_until()

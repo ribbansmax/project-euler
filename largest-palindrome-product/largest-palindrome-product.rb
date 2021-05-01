@@ -12,14 +12,14 @@ class PalindromeProduct
   def find_palindromes
     i = 999
     j = 999
-    while i > 100
-      while j > 100
+    until i == 100
+      until j == i
         p = i * j
         @palindromes << p if palindrome?(p)
         j = j - 1
       end
       i = i - 1
-      j == 999
+      j = 999
     end
   end
 
